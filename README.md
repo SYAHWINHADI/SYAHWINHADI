@@ -1,10 +1,7 @@
-- 👋 Hi, I’m @SYAHWINHADI
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-SYAHWINHADI/SYAHWINHADI is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+print("HARI MASUK KULIAH")
+hari = ["senin","selasa","rabu","kamis","jum'at","sabtu","minggu"]
+for i in range(len(hari)) :
+	print (i + 1,hari [i])
+	
+	if i==4:
+		print ("HARI LIBUR KULIAH")
